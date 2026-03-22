@@ -1,0 +1,104 @@
+{
+  "hero": {
+    "leftTextDefault": {
+      "title": "Perspective Globale",
+      "line1": "Basée au Maroc",
+      "line2": "Passionnée par le code propre",
+      "additional": "Apportant une expérience internationale à chaque projet avec un accent sur des solutions évolutives."
+    },
+    "leftTextHover": {
+      "title": "Perspective Culturelle",
+      "line1": "Développeuse multilingue",
+      "line2": "Bâtisseuse de ponts culturels",
+      "additional": "Maîtrise 4 langues avec une expérience de travail sur 3 continents."
+    },
+    "center": {
+      "hello": "Salut! Je suis Mona",
+      "titlePart1": "Je suis",
+      "name": "Mona ,",
+      "titlePart2": "Développeuse Full Stack",
+      "subtitle": "Création d'applications web belles et fonctionnelles avec des technologies modernes et des principes de conception centrés sur l'utilisateur.",
+      "button": "Voir mon travail",
+      "secondaryButton": "Télécharger CV",
+      "hoverLabel": "C'est moi ! 👋",
+      "experience": {
+        "stars": "⭐⭐⭐⭐⭐",
+        "years": "5+",
+        "label": "Ans d'expérience"
+      },
+      "projects": {
+        "count": "50+",
+        "label": "Projets réalisés"
+      },
+      "clients": {
+        "count": "30+",
+        "label": "Clients satisfaits"
+      },
+      "testimonial": {
+        "quote": "Mona a transformé notre présence web avec son expertise technique et ses solutions créatives. Le projet a été livré à temps et a dépassé nos attentes.",
+        "name": "Sarah Johnson",
+        "position": "PDG, TechSolutions Inc."
+      }
+    },
+    "rightTextDefault": {
+      "title": "Compétences Techniques",
+      "line1": "Spécialiste React & Laravel",
+      "line2": "Applications web fluides",
+      "list": {
+        "item1": "Frontend : React, Next.js",
+        "item2": "Backend : Laravel, Node.js",
+        "item3": "Base de données : MySQL, MongoDB"
+      }
+    },
+    "rightTextHover": {
+      "title": "Contactez-moi",
+      "line1": "Parlons code & café",
+      "line2": "Votre vision, ma mission",
+      "list": {
+        "item1": "Disponible en freelance",
+        "item2": "Ouverte aux collaborations",
+        "item3": "Mentorat disponible"
+      }
+    }
+  },
+  "header": {
+    "home": "Accueil",
+    "about": "A Propos",
+    "service": "Services",
+    "resume": "Mon CV",
+    "project": "Mes Projets",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "À propos de moi",
+    "description": "Je suis une développeuse full-stack passionnée par la création d'expériences web.",
+    "details": "Avec plus de 5 ans d'expérience professionnelle, je me spécialise dans la création d'applications web réactives, accessibles et performantes. Mon approche combine l'excellence technique avec la résolution créative de problèmes pour fournir des solutions qui génèrent des résultats commerciaux.",
+    "skillsTitle": "Mes Compétences",
+    "educationTitle": "Formation",
+    "experienceTitle": "Expérience"
+  },
+
+   "services": 
+   {
+  "title": "Mes Services",
+  "description": "Services complets de développement full-stack pour donner vie à vos idées.",
+  "items": {
+    "frontend": {
+      "title": "Développement Frontend",
+      "description": "Création d'interfaces utilisateur réactives avec React, Next.js et des frameworks CSS modernes.",
+      "count": "7"
+    },
+    "backend": {
+      "title": "Développement Backend",
+      "description": "Développement d'applications serveur robustes avec Node.js, Express et intégration de bases de données.",
+      "count": "7"
+    },
+    "fullstack": {
+      "title": "Solutions Full-Stack",
+      "description": "Développement d'applications web de bout en bout avec une intégration transparente frontend-backend.",
+      "count": "7"
+    }
+  }
+}
+
+}

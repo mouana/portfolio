@@ -1,0 +1,103 @@
+{
+  "hero": {
+    "leftTextDefault": {
+      "title": "Global Perspective",
+      "line1": "Based in Morocco",
+      "line2": "Passionate about clean code",
+      "additional": "Bringing international experience to every project with a focus on scalable solutions."
+    },
+    "leftTextHover": {
+      "title": "Cultural Insight",
+      "line1": "Multilingual developer",
+      "line2": "Cultural bridge builder",
+      "additional": "Fluent in 4 languages with experience working across 3 continents."
+    },
+    "center": {
+      "hello": "Hello! I'm Mona",
+      "titlePart1": "I'm",
+      "name": "Mona,",
+      "titlePart2": "Full Stack Developer",
+      "subtitle": "Creating beautiful, functional web applications with modern technologies and user-focused design principles.",
+      "button": "View My Work",
+      "secondaryButton": "Download CV",
+      "hoverLabel": "That's me! 👋",
+      "experience": {
+        "stars": "⭐⭐⭐⭐⭐",
+        "years": "5+",
+        "label": "Years Experience"
+      },
+      "projects": {
+        "count": "50+",
+        "label": "Projects Completed"
+      },
+      "clients": {
+        "count": "30+",
+        "label": "Happy Clients"
+      },
+      "testimonial": {
+        "quote": "Mona transformed our web presence with her technical expertise and creative solutions. The project was delivered on time and exceeded our expectations.",
+        "name": "Sarah Johnson",
+        "position": "CEO, TechSolutions Inc."
+      }
+    },
+    "rightTextDefault": {
+      "title": "Technical Skills",
+      "line1": "React & Laravel Specialist",
+      "line2": "Seamless Web Apps",
+      "list": {
+        "item1": "Frontend: React, Next.js",
+        "item2": "Backend: Laravel, Node.js",
+        "item3": "Database: MySQL, MongoDB"
+      }
+    },
+    "rightTextHover": {
+      "title": "Let's Connect",
+      "line1": "Let's talk code & coffee",
+      "line2": "Your vision, my mission",
+      "list": {
+        "item1": "Available for freelance",
+        "item2": "Open to collaborations",
+        "item3": "Mentoring available"
+      }
+    }
+  },
+  "header": {
+    "home": "Home",
+    "about": "About",
+    "service": "Services",
+    "resume": "Resume",
+    "project": "Projects",
+    "contact": "Contact"
+  },
+  "about": {
+    "title": "About Me",
+    "description": "I am a full-stack developer passionate about building web experiences.",
+    "details": "With 5+ years of professional experience, I specialize in creating responsive, accessible, and performant web applications. My approach combines technical excellence with creative problem-solving to deliver solutions that drive business results.",
+    "skillsTitle": "My Skills",
+    "educationTitle": "Education",
+    "experienceTitle": "Experience"
+  },
+   "services":
+   {
+  "title": "My Services",
+  "description": "Comprehensive full-stack development services to bring your ideas to life.",
+  "items": {
+    "frontend": {
+      "title": "Frontend Development",
+      "description": "Building responsive, interactive user interfaces with React, Next.js, and modern CSS frameworks.",
+      "count": "7"
+    },
+    "backend": {
+      "title": "Backend Development",
+      "description": "Developing robust server-side applications with Node.js, Express, and database integration.",
+      "count": "7"
+    },
+    "fullstack": {
+      "title": "Full-Stack Solutions",
+      "description": "End-to-end web application development with seamless frontend-backend integration.",
+      "count": "7"
+    }
+  }
+}
+
+}
