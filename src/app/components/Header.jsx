@@ -16,7 +16,7 @@ export default function Header() {
 
   const handleLocaleChange = (e) => {
     const newLocale = e.target.value;
-    const pathWithoutLocale = pathname.replace(/^\/(en|fr|ar)/, "") || "/";
+   const pathWithoutLocale = pathname.replace(/^\/(en|fr|ar|de)/, "") || "/";
     router.push(`/${newLocale}${pathWithoutLocale}`);
   };
 
@@ -76,6 +76,7 @@ export default function Header() {
             <option value="en">EN</option>
             <option value="fr">FR</option>
             <option value="ar">AR</option>
+            <option value="de">DE</option>
           </select>
         </div>
 
@@ -134,6 +135,7 @@ export default function Header() {
               <option value="en">English (EN)</option>
               <option value="fr">Français (FR)</option>
               <option value="ar">العربية (AR)</option>
+               <option value="de">Deutsch (DE)</option>
             </select>
           </div>
         )}

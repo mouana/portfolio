@@ -73,9 +73,22 @@
     "title": "About Me",
     "description": "I am a full-stack developer passionate about building web experiences.",
     "details": "With 5+ years of professional experience, I specialize in creating responsive, accessible, and performant web applications. My approach combines technical excellence with creative problem-solving to deliver solutions that drive business results.",
+
+    "hoverLabel": "It's me 👋",
+
     "skillsTitle": "My Skills",
+    "skills": {
+      "item1": "Frontend: React, Next.js",
+      "item2": "Backend: Laravel, Node.js",
+      "item3": "Databases: MySQL, MongoDB",
+      "item4": "Styling: Tailwind CSS, Bootstrap"
+    },
+
     "educationTitle": "Education",
-    "experienceTitle": "Experience"
+    "education": "Background in full-stack web development with continuous learning in modern technologies and best practices.",
+
+    "experienceTitle": "Experience",
+    "experience": "Over 5 years of experience building scalable web applications, collaborating with international clients, and delivering high-quality digital solutions."
   },
    "services":
    {
