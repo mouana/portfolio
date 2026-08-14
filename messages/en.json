@@ -70,47 +70,194 @@
     "contact": "Contact"
   },
   "about": {
-    "title": "About Me",
-    "description": "I am a full-stack developer passionate about building web experiences.",
-    "details": "With 5+ years of professional experience, I specialize in creating responsive, accessible, and performant web applications. My approach combines technical excellence with creative problem-solving to deliver solutions that drive business results.",
-
-    "hoverLabel": "It's me 👋",
-
+        "badge": "About Me",
+    "title": "Building digital experiences with creativity and code",
+    "description": "I'm a Full-Stack Web Developer passionate about creating modern, responsive, and user-friendly web applications. I enjoy turning ideas into functional digital experiences and continuously improving my skills through real-world projects.",
+    "detailsTitle": "Who I Am",
+    "details": "I'm passionate about web development and enjoy transforming ideas into practical digital solutions. I focus on writing clean, maintainable code while creating interfaces that are simple, intuitive, and enjoyable to use.",
     "skillsTitle": "My Skills",
     "skills": {
-      "item1": "Frontend: React, Next.js",
-      "item2": "Backend: Laravel, Node.js",
-      "item3": "Databases: MySQL, MongoDB",
-      "item4": "Styling: Tailwind CSS, Bootstrap"
+      "item1": "React & Next.js",
+      "item2": "Laravel & PHP",
+      "item3": "JavaScript & Tailwind CSS",
+      "item4": "MySQL & REST APIs"
     },
-
     "educationTitle": "Education",
-    "education": "Background in full-stack web development with continuous learning in modern technologies and best practices.",
-
+    "education": "Professional Diploma in Full-Stack Web Development, with a focus on frontend and backend development, databases, APIs, and modern web technologies.",
     "experienceTitle": "Experience",
-    "experience": "Over 5 years of experience building scalable web applications, collaborating with international clients, and delivering high-quality digital solutions."
+    "experience": "I have worked on web development projects involving modern frontend frameworks, backend systems, databases, APIs, and responsive user interfaces.",
+    "goalTitle": "My Goal",
+    "goal": "I want to continue growing as a developer, work on meaningful projects, and build reliable digital solutions that create real value."
+  
   },
-   "services":
-   {
+
+  "service": {
+    "badge": "My Services",
+    "title": "What I Can Build For You",
+    "description": "I create modern, responsive and functional web solutions, combining clean interfaces with reliable backend systems.",
+    "items": {
+      "frontend": {
+        "title": "Frontend Development",
+        "description": "Building modern and responsive user interfaces using React, Next.js, JavaScript and Tailwind CSS."
+      },
+      "backend": {
+        "title": "Backend Development",
+        "description": "Developing reliable backend systems and business logic using Laravel, PHP and Node.js."
+      },
+      "database": {
+        "title": "Database Development",
+        "description": "Designing and managing structured databases using MySQL and SQL."
+      },
+      "ui": {
+        "title": "UI Development",
+        "description": "Creating clean, intuitive and user-friendly interfaces with a strong focus on usability."
+      },
+      "api": {
+        "title": "API Integration",
+        "description": "Building and integrating REST APIs to connect frontend applications with backend services."
+      },
+      "responsive": {
+        "title": "Responsive Websites",
+        "description": "Creating websites that provide a smooth experience across desktops, tablets and mobile devices."
+      }
+    },
+    "cta": {
+      "title": "Have a project in mind?",
+      "description": "Let's turn your idea into a functional and engaging digital experience.",
+      "button": "Let's Work Together"
+    }
+  },
+   "resume": {
+    "badge": "My Resume",
+    "title": "My Professional Resume",
+    "description": "Explore my professional background, education, technical skills, and experience through my resumes.",
+    "download": "Download CV",
+    "view": "View Resume",
+    "note": "My resume is available in English and German. Choose the version that best matches the opportunity you are interested in.",
+    "english": {
+      "language": "English Resume",
+      "description": "My professional resume in English, suitable for international opportunities and companies."
+    },
+    "german": {
+      "language": "German Resume",
+      "description": "My German Lebenslauf, prepared for opportunities in Germany and German-speaking environments."
+    }
+  },
+  
+  "contact": {
+    "badge": "Get In Touch",
+    "title": "Let's Connect",
+    "description": "Have a question, a project idea, or an opportunity? I'd be happy to hear from you.",
+    "info": {
+      "title": "Let's talk",
+      "description": "I'm always open to discussing new projects, opportunities, collaborations, or simply connecting with other people in tech.",
+      "emailLabel": "Email",
+      "locationLabel": "Location",
+      "socialLabel": "Find me online",
+       "phoneLabel": "Phone",
+"whatsappLabel": "WhatsApp"
+    },
+    "form": {
+      "title": "Send me a message",
+      "description": "Fill out the form and your email client will open with your message ready to send.",
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "your@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project or opportunity...",
+      "button": "Send Message"
+     
+    }
+  },
+  "services": {
   "title": "My Services",
-  "description": "Comprehensive full-stack development services to bring your ideas to life.",
+  "description": "I build modern web solutions that are responsive, functional, and designed around real user needs.",
   "items": {
     "frontend": {
       "title": "Frontend Development",
-      "description": "Building responsive, interactive user interfaces with React, Next.js, and modern CSS frameworks.",
-      "count": "7"
+      "description": "Creating modern and interactive user interfaces using React, Next.js, JavaScript, HTML, CSS, and Tailwind CSS."
     },
     "backend": {
       "title": "Backend Development",
-      "description": "Developing robust server-side applications with Node.js, Express, and database integration.",
-      "count": "7"
+      "description": "Building reliable backend systems and APIs using Laravel, PHP, Node.js, and database technologies."
     },
     "fullstack": {
-      "title": "Full-Stack Solutions",
-      "description": "End-to-end web application development with seamless frontend-backend integration.",
-      "count": "7"
+      "title": "Full-Stack Development",
+      "description": "Developing complete web applications by combining modern frontend interfaces with powerful backend technologies."
     }
   }
+},
+"projects": {
+  "badge": "My Projects",
+  "title": "Projects I've Built",
+  "description": "A selection of web projects where I combine modern technologies, clean design, and practical solutions to create useful digital experiences.",
+  "github": "GitHub",
+  "demo": "Live Demo",
+
+  "items": {
+    "ecoVibe": {
+  "title": "EcoVibe – Renewable Energy Platform",
+  "description": "A web platform focused on renewable energy in Morocco, designed to raise awareness and provide users with information about sustainable and ecological solutions. Developed as a collaborative team project using React and Figma."
+},
+
+    "globalGlow": {
+      "title": "Global Glow Trading",
+      "description": "A modern multilingual business website created for a construction, interior design, decoration, and international trading company."
+    },
+
+    "portfolio": {
+      "title": "Personal Portfolio",
+      "description": "A multilingual personal portfolio built with Next.js to showcase my skills, experience, projects, and professional background."
+    }
+  },
+
+  "cta": {
+    "title": "Have an idea for a project?",
+    "description": "Let's turn your idea into a modern and functional digital experience.",
+    "button": "Let's Talk"
+  }
+},
+"project": {
+  "badge": "My Work",
+  "title": "Featured Projects",
+  "viewProject": "View Project",
+
+  "items": {
+    "globalGlow": {
+      "title": "Global Glow Trading",
+      "shortDescription": "A modern multilingual website for a construction and trading company."
+    },
+
+    "ecoVibe": {
+      "title": "EcoVibe",
+      "shortDescription": "A React platform promoting renewable energy and sustainable solutions in Morocco."
+    },
+
+   "portfolio": {
+  "title": "Personal Portfolio",
+  "shortDescription": "A multilingual portfolio built with Next.js to showcase my skills, projects, and professional background."
 }
+  }
+},
+"footer": {
+"role": "Full Stack Web Developer",
+"description": "I create modern, responsive and user-focused web experiences using clean code and modern technologies.",
+"navigationTitle": "Navigation",
+"contactTitle": "Let's Connect",
+"whatsapp": "WhatsApp",
+"rights": "All rights reserved.",
+"backToTop": "Back to top",
+"links": {
+  "home": "Home",
+  "about": "About",
+  "services": "Services",
+  "projects": "Projects",
+  "resume": "Resume",
+  "contact": "Contact"
+}
+}
+
+
 
 }

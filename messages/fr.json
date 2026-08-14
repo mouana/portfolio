@@ -70,35 +70,190 @@
     "contact": "Contact"
   },
   "about": {
-    "title": "À propos de moi",
-    "description": "Je suis une développeuse full-stack passionnée par la création d'expériences web.",
-    "details": "Avec plus de 5 ans d'expérience professionnelle, je me spécialise dans la création d'applications web réactives, accessibles et performantes. Mon approche combine l'excellence technique avec la résolution créative de problèmes pour fournir des solutions qui génèrent des résultats commerciaux.",
-    "skillsTitle": "Mes Compétences",
+    "badge": "À propos de moi",
+    "title": "Je crée des expériences digitales avec créativité et code",
+    "description": "Je suis développeuse web Full-Stack, passionnée par la création d'applications web modernes, responsives et faciles à utiliser. J'aime transformer les idées en expériences digitales fonctionnelles et développer continuellement mes compétences à travers des projets concrets.",
+    "detailsTitle": "Qui suis-je ?",
+    "details": "Passionnée par le développement web, j'aime transformer les idées en solutions digitales concrètes. Je m'intéresse particulièrement à la création de code propre et maintenable, ainsi qu'à des interfaces simples, intuitives et agréables à utiliser.",
+    "skillsTitle": "Mes compétences",
+    "skills": {
+      "item1": "React & Next.js",
+      "item2": "Laravel & PHP",
+      "item3": "JavaScript & Tailwind CSS",
+      "item4": "MySQL & REST APIs"
+    },
     "educationTitle": "Formation",
-    "experienceTitle": "Expérience"
+    "education": "Diplôme professionnel en développement web Full-Stack, avec une spécialisation en développement frontend et backend, bases de données, API et technologies web modernes.",
+    "experienceTitle": "Expérience",
+    "experience": "J'ai travaillé sur des projets de développement web utilisant des technologies frontend modernes, des systèmes backend, des bases de données, des API et des interfaces responsives.",
+    "goalTitle": "Mon objectif",
+    "goal": "Je souhaite continuer à évoluer en tant que développeuse, travailler sur des projets utiles et créer des solutions digitales fiables qui apportent une réelle valeur."
   },
 
-   "services": 
-   {
+  "service": {
+    "badge": "Mes services",
+    "title": "Ce que je peux créer pour vous",
+    "description": "Je crée des solutions web modernes, responsives et fonctionnelles, en combinant des interfaces soignées avec des systèmes backend fiables.",
+    "items": {
+      "frontend": {
+        "title": "Développement Frontend",
+        "description": "Création d'interfaces modernes et responsives avec React, Next.js, JavaScript et Tailwind CSS."
+      },
+      "backend": {
+        "title": "Développement Backend",
+        "description": "Développement de systèmes backend fiables et de la logique métier avec Laravel, PHP et Node.js."
+      },
+      "database": {
+        "title": "Développement de bases de données",
+        "description": "Conception et gestion de bases de données structurées avec MySQL et SQL."
+      },
+      "ui": {
+        "title": "Développement UI",
+        "description": "Création d'interfaces propres, intuitives et faciles à utiliser, avec une attention particulière portée à l'expérience utilisateur."
+      },
+      "api": {
+        "title": "Intégration d'API",
+        "description": "Création et intégration d'API REST pour connecter les applications frontend aux services backend."
+      },
+      "responsive": {
+        "title": "Sites web responsives",
+        "description": "Création de sites offrant une expérience fluide sur ordinateur, tablette et mobile."
+      }
+    },
+    "cta": {
+      "title": "Vous avez un projet en tête ?",
+      "description": "Transformons votre idée en une expérience digitale fonctionnelle et engageante.",
+      "button": "Travaillons ensemble"
+    }
+  },
+  "resume": {
+    "badge": "Mon CV",
+    "title": "Mon parcours professionnel",
+    "description": "Découvrez mon parcours professionnel, ma formation, mes compétences techniques et mes expériences à travers mes CV.",
+    "download": "Télécharger le CV",
+    "view": "Voir le CV",
+    "note": "Mon CV est disponible en anglais et en allemand. Choisissez la version qui correspond le mieux à l'opportunité qui vous intéresse.",
+    "english": {
+      "language": "CV en anglais",
+      "description": "Mon CV professionnel en anglais, adapté aux opportunités internationales et aux entreprises internationales."
+    },
+    "german": {
+      "language": "CV en allemand",
+      "description": "Mon CV en allemand, préparé pour les opportunités professionnelles en Allemagne et dans les environnements germanophones."
+    }
+  },
+  
+  "contact": {
+    "badge": "Me contacter",
+    "title": "Restons en contact",
+    "description": "Une question, une idée de projet ou une opportunité ? Je serais ravie d'échanger avec vous.",
+    "info": {
+      "title": "Parlons-en",
+      "description": "Je suis toujours ouverte à discuter de nouveaux projets, opportunités, collaborations ou simplement à échanger avec d'autres passionnés de technologie.",
+      "emailLabel": "E-mail",
+      "locationLabel": "Localisation",
+      "socialLabel": "Retrouvez-moi en ligne"
+      ,
+      "phoneLabel": "Téléphone",
+"whatsappLabel": "WhatsApp"
+    },
+    "form": {
+      "title": "Envoyez-moi un message",
+      "description": "Remplissez le formulaire et votre client de messagerie s'ouvrira avec votre message prêt à être envoyé.",
+      "name": "Nom",
+      "namePlaceholder": "Votre nom",
+      "email": "E-mail",
+      "emailPlaceholder": "votre@email.com",
+      "message": "Message",
+      "messagePlaceholder": "Parlez-moi de votre projet ou de votre opportunité...",
+      "button": "Envoyer le message"
+    }
+  },
+  "services": {
   "title": "Mes Services",
-  "description": "Services complets de développement full-stack pour donner vie à vos idées.",
+  "description": "Je crée des solutions web modernes, responsives et fonctionnelles, conçues pour répondre aux besoins réels des utilisateurs.",
   "items": {
     "frontend": {
       "title": "Développement Frontend",
-      "description": "Création d'interfaces utilisateur réactives avec React, Next.js et des frameworks CSS modernes.",
-      "count": "7"
+      "description": "Création d'interfaces modernes et interactives avec React, Next.js, JavaScript, HTML, CSS et Tailwind CSS."
     },
     "backend": {
       "title": "Développement Backend",
-      "description": "Développement d'applications serveur robustes avec Node.js, Express et intégration de bases de données.",
-      "count": "7"
+      "description": "Développement de systèmes backend et d'API fiables avec Laravel, PHP, Node.js et différentes technologies de bases de données."
     },
     "fullstack": {
-      "title": "Solutions Full-Stack",
-      "description": "Développement d'applications web de bout en bout avec une intégration transparente frontend-backend.",
-      "count": "7"
+      "title": "Développement Full-Stack",
+      "description": "Développement d'applications web complètes en combinant des interfaces frontend modernes avec des technologies backend performantes."
     }
   }
+},
+"projects": {
+  "badge": "Mes Projets",
+  "title": "Projets Réalisés",
+  "description": "Une sélection de projets web dans lesquels je combine des technologies modernes, un design soigné et des solutions pratiques.",
+  "github": "GitHub",
+  "demo": "Démo en ligne",
+
+  "items": {
+    "ecoVibe": {
+  "title": "EcoVibe – Plateforme d'Énergies Renouvelables",
+  "description": "Une plateforme web dédiée aux énergies renouvelables au Maroc, conçue pour sensibiliser les utilisateurs et les informer sur les solutions écologiques et durables. Projet collaboratif développé avec React et Figma."
+},
+
+    "globalGlow": {
+      "title": "Global Glow Trading",
+      "description": "Un site web professionnel multilingue créé pour une entreprise spécialisée dans la construction, le design intérieur, la décoration et le commerce international."
+    },
+
+    "portfolio": {
+      "title": "Portfolio Personnel",
+      "description": "Un portfolio personnel multilingue développé avec Next.js pour présenter mes compétences, mon expérience, mes projets et mon parcours professionnel."
+    }
+  },
+
+  "cta": {
+    "title": "Vous avez une idée de projet ?",
+    "description": "Transformons votre idée en une expérience digitale moderne et fonctionnelle.",
+    "button": "Discutons-en"
+  }
+},
+"project": {
+  "badge": "Mon travail",
+  "title": "Projets sélectionnés",
+  "viewProject": "Voir le projet",
+  "items": {
+    "globalGlow": {
+      "title": "Global Glow Trading",
+      "shortDescription": "Un site web moderne et multilingue pour une entreprise de construction et de commerce international."
+    },
+    "ecoVibe": {
+      "title": "EcoVibe",
+      "shortDescription": "Une plateforme React dédiée aux énergies renouvelables et aux solutions durables au Maroc."
+    },
+    "portfolio": {
+      "title": "Portfolio personnel",
+      "shortDescription": "Un portfolio multilingue développé avec Next.js pour présenter mes compétences, mes projets et mon parcours professionnel."
+    }
+  }
+},
+"footer": {
+  "role": "Développeuse Web Full Stack",
+  "description": "Je crée des expériences web modernes, responsives et centrées sur l'utilisateur, en utilisant un code propre et des technologies modernes.",
+  "navigationTitle": "Navigation",
+  "contactTitle": "Restons en contact",
+  "whatsapp": "WhatsApp",
+  "rights": "Tous droits réservés.",
+  "backToTop": "Retour en haut",
+  "links": {
+    "home": "Accueil",
+    "about": "À propos",
+    "services": "Services",
+    "projects": "Projets",
+    "resume": "CV",
+    "contact": "Contact"
+  }
 }
+
+  
 
 }

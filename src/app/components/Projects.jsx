@@ -1,86 +1,145 @@
-'use client';
+"use client";
 
-import Image from 'next/image';
-import { ArrowUpRight } from 'lucide-react';
+import Image from "next/image";
+import { ArrowUpRight } from "lucide-react";
 import { MagicCard } from "@/components/magicui/magic-card";
+import { useTranslations } from "next-intl";
 
 const projects = [
   {
     id: 1,
-    title: 'Design Unraveled: Behind the Scenes of UI/UX Magic',
-    category: 'UI/ UX Design',
-    image: 'https://picsum.photos/seed/uiux/500/300',
-    author: 'Fatima Ait Taouil',
-    date: '10 Nov, 2023',
+    key: "globalGlow",
+    category: "Next.js",
+    image: "/global-glow.jpg",
+    demo:
+      "https://globalglow-git-main-mona-souabni-s-projects.vercel.app/en",
   },
   {
     id: 2,
-    title: 'Sugee: Loan Management System for Rural Sector.',
-    category: 'App Design',
-    image: 'https://picsum.photos/seed/sugee/500/300',
-    author: 'Fatima Ait Taouil',
-    date: '09 Oct, 2023',
+    key: "ecoVibe",
+    category: "React",
+    image: "/ecovibe.jpg",
+    demo: "https://mouana.github.io/ecovibe/#/",
   },
-  {
-    id: 3,
-    title: 'Cinetrade: Innovative way to invest in Digital Media',
-    category: 'App Design',
-    image: 'https://picsum.photos/seed/cinetrade/500/300',
-    author: 'Fatima Ait Taouil',
-    date: '13 Aug, 2023',
-  },
+{
+  id: 3,
+  key: "portfolio",
+  category: "Next.js",
+  image: "/me.jpg",
+  demo: "",
+},
 ];
 
 export default function Projects() {
-  return (
-    <section className="bg-white py-20 px-4 md:px-8">
-      <div className="max-w-7xl mx-auto">
-        <h2 className="text-3xl font-bold text-gray-900 mb-12 text-center">My Projects</h2>
+  const t = useTranslations("project");
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+  return (
+    <section className="bg-white py-16 px-4 md:px-8">
+      <div className="max-w-7xl mx-auto">
+
+        {/* Heading */}
+        <div className="text-center mb-12">
+
+          <span className="inline-flex px-4 py-2 rounded-full bg-[#FF9478]/10 text-[#e9785b] text-sm font-medium mb-4">
+            {t("badge")}
+          </span>
+
+          <h2 className="text-3xl md:text-4xl font-bold text-gray-900">
+            {t("title")}
+          </h2>
+
+        </div>
+
+        {/* Projects */}
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-7">
+
           {projects.map((project) => (
             <MagicCard
               key={project.id}
-              className="rounded-3xl shadow-lg hover:shadow-xl transition-all duration-300 bg-white"
+              className="rounded-3xl bg-white shadow-sm hover:shadow-xl transition-all duration-300"
             >
-              <div className="p-4 pb-8">
-                {/* Thumbnail */}
-                <div className="relative overflow-hidden rounded-2xl">
+              <div className="p-4">
+
+                {/* Image */}
+                <div className="relative overflow-hidden rounded-2xl group">
+
                   <Image
                     src={project.image}
-                    alt={project.title}
-                    width={500}
-                    height={300}
-                    className="w-full h-60 object-cover rounded-2xl"
-                    unoptimized
+                    alt={t(`items.${project.key}.title`)}
+                    width={600}
+                    height={360}
+                    className="
+                      w-full
+                      h-52
+                      object-cover
+                      rounded-2xl
+                      transition-transform
+                      duration-500
+                      group-hover:scale-105
+                    "
                   />
 
-                  {/* Top-left label */}
-                  <span className="absolute top-3 left-3 bg-white text-sm font-medium text-gray-800 px-3 py-1 rounded-full shadow">
+                  {/* Category */}
+                  <span className="
+                    absolute
+                    top-3
+                    left-3
+                    bg-white/90
+                    backdrop-blur-sm
+                    text-xs
+                    font-medium
+                    text-gray-800
+                    px-3
+                    py-1.5
+                    rounded-full
+                  ">
                     {project.category}
                   </span>
 
-                  {/* Arrow button */}
-                  <button className="absolute bottom-[-16px] right-4 bg-gray-900 text-white p-3 rounded-full hover:bg-[#FF9478] transition-all duration-300">
-                    <ArrowUpRight size={20} />
-                  </button>
                 </div>
 
-                {/* Metadata */}
-                <div className="flex items-center space-x-2 text-sm text-gray-500 mt-6">
-                  <span className="text-orange-500 font-medium">{project.author}</span>
-                  <span className="text-orange-500">•</span>
-                  <span>{project.date}</span>
+                {/* Content */}
+                <div className="px-1 pt-5 pb-3">
+
+                  <h3 className="text-lg font-semibold text-gray-900">
+                    {t(`items.${project.key}.title`)}
+                  </h3>
+
+                  <p className="text-sm text-gray-500 mt-2 leading-relaxed">
+                    {t(`items.${project.key}.shortDescription`)}
+                  </p>
+
+                  {/* Demo */}
+                  {project.demo && (
+                    <a
+                      href={project.demo}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="
+                        inline-flex
+                        items-center
+                        gap-1.5
+                        mt-4
+                        text-sm
+                        font-medium
+                        text-[#e9785b]
+                        hover:text-[#FF9478]
+                        transition
+                      "
+                    >
+                      {t("viewProject")}
+                      <ArrowUpRight size={16} />
+                    </a>
+                  )}
+
                 </div>
 
-                {/* Title */}
-                <h3 className="mt-2 text-lg font-semibold text-gray-800 leading-snug">
-                  {project.title}
-                </h3>
               </div>
             </MagicCard>
           ))}
+
         </div>
+
       </div>
     </section>
   );
