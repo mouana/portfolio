@@ -12,7 +12,7 @@ const projects = [
     category: "Next.js",
     image: "/global-glow.jpg",
     demo:
-      "https://globalglow-git-main-mona-souabni-s-projects.vercel.app/en",
+      "https://globalglow.vercel.app/en",
   },
   {
     id: 2,

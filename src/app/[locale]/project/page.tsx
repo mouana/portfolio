@@ -33,7 +33,7 @@ export default function ProjectPage() {
   image: "/global-glow.jpg",
   technologies: ["Next.js", "Tailwind CSS", "next-intl"],
   github: "https://github.com/mouana",
-  demo: "https://globalglow-git-main-mona-souabni-s-projects.vercel.app/en",
+  demo: "https://globalglow.vercel.app/en",
 },
     {
       key: "portfolio",
