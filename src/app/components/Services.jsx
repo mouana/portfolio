@@ -1,6 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
 import {
   FiCode,
   FiLayout,
@@ -13,10 +13,10 @@ import {
 
 import { BlurFade } from "@/components/magicui/blur-fade";
 import Header from "@/app/components/Header";
-
+import Link from "next/link";
 export default function ServicePage() {
   const t = useTranslations("service");
-
+  const locale = useLocale();
   const services = [
     {
       number: "01",
@@ -311,28 +311,12 @@ export default function ServicePage() {
                 </div>
 
 
-                <a
-                  href="/contact"
-                  className="
-                    shrink-0
-                    inline-flex
-                    items-center
-                    gap-2
-                    bg-[#FF9478]
-                    hover:bg-[#ff8060]
-                    text-white
-                    px-6
-                    py-3
-                    rounded-full
-                    font-semibold
-                    transition-all
-                    duration-300
-                    hover:gap-3
-                  "
-                >
-                  {t("cta.button")}
-                  <FiArrowUpRight size={18} />
-                </a>
+               <Link
+  href={`/${locale}/contact`}
+  className="inline-flex px-6 py-3 rounded-full bg-[#FF9478] text-white font-semibold hover:bg-[#e9785b] hover:scale-105 transition-all duration-300"
+>
+  {t("cta.button")}
+</Link>
 
               </div>
 

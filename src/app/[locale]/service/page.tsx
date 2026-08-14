@@ -1,7 +1,6 @@
 "use client";
 
-import { useTranslations } from "next-intl";
-import {
+import { useLocale, useTranslations } from "next-intl";import {
   FiCode,
   FiLayout,
   FiDatabase,
@@ -13,11 +12,11 @@ import {
 import { BlurFade } from "@/components/magicui/blur-fade";
 import Header from "@/app/components/Header";
 import Footer from'@/app/components/footer'
-
+import Link from "next/link";
 
 export default function ServicePage() {
   const t = useTranslations("service");
-
+  const locale = useLocale();
   const services = [
     {
       icon: FiCode,
@@ -186,9 +185,12 @@ export default function ServicePage() {
                 </div>
 
                 <div className="shrink-0">
-                  <div className="px-6 py-3 rounded-full bg-[#FF9478] text-white font-semibold">
-                    {t("cta.button")}
-                  </div>
+                  <Link
+  href={`/${locale}/contact`}
+  className="inline-flex px-6 py-3 rounded-full bg-[#FF9478] text-white font-semibold hover:bg-[#e9785b] hover:scale-105 transition-all duration-300"
+>
+  {t("cta.button")}
+</Link>
                 </div>
 
               </div>

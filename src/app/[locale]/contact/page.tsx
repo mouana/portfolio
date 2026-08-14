@@ -16,30 +16,30 @@ import { FaWhatsapp } from "react-icons/fa";
 import { BlurFade } from "@/components/magicui/blur-fade";
 import Header from "@/app/components/Header";
 import Footer from'@/app/components/footer'
-
+import type { FormEvent } from "react";
 
 export default function ContactPage() {
   const t = useTranslations("contact");
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
+const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-    const form = e.target;
+  const formData = new FormData(e.currentTarget);
 
-    const name = form.name.value;
-    const email = form.email.value;
-    const message = form.message.value;
+  const name = formData.get("name") as string;
+  const email = formData.get("email") as string;
+  const message = formData.get("message") as string;
 
-    const subject = encodeURIComponent(
-      `Portfolio Contact from ${name}`
-    );
+  const subject = encodeURIComponent(
+    `Portfolio Contact from ${name}`
+  );
 
-    const body = encodeURIComponent(
-      `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
-    );
+  const body = encodeURIComponent(
+    `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
+  );
 
-    window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
-  };
+  window.location.href = `mailto:your@email.com?subject=${subject}&body=${body}`;
+};
 
   return (
     <>
@@ -434,29 +434,25 @@ export default function ContactPage() {
                       />
 
                       <textarea
-                        id="message"
-                        name="message"
-                        required
-                        rows="6"
-                        placeholder={t("form.messagePlaceholder")}
-                        className="
-                          w-full
-                          pl-11
-                          pr-4
-                          py-3.5
-                          rounded-2xl
-                          border
-                          border-gray-200
-                          outline-none
-                          text-gray-800
-                          placeholder:text-gray-400
-                          focus:border-[#FF9478]
-                          focus:ring-2
-                          focus:ring-[#FF9478]/10
-                          transition
-                          resize-none
-                        "
-                      />
+  name="message"
+  required
+  rows={6}
+  placeholder={t("form.messagePlaceholder")}
+  className="
+    w-full
+    rounded-2xl
+    border
+    border-gray-200
+    px-4
+    py-3
+    text-gray-900
+    outline-none
+    transition
+    focus:border-[#FF9478]
+    focus:ring-2
+    focus:ring-[#FF9478]/20
+  "
+/>
 
                     </div>
 
