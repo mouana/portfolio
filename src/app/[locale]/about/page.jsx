@@ -47,7 +47,7 @@ export default function AboutPage() {
                       src="/moana.png"
                       alt="Mona Souabni"
                       fill
-                      className="object-cover"
+                      className="object-cover object-top"
                       priority
                     />
                   </div>
