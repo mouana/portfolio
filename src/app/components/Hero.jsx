@@ -143,10 +143,10 @@ export default function HeroSection() {
     `}
   >
     <Image
-      src="/mona-1.png"
+      src="/moana.png"
       alt="Mona"
       fill
-      className="object-cover"
+      className="object-cover object-top"
     />
   </div>
 
@@ -167,10 +167,10 @@ export default function HeroSection() {
     `}
   >
     <Image
-      src="/mona-2.png"
+      src="/moana2.png"
       alt="Mona Hover"
       fill
-      className="object-cover"
+      className="object-cover object-top"
     />
   </div>
 

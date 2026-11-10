@@ -27,7 +27,7 @@ export default function ResumePage() {
       language: t("german.language"),
       code: "DE",
       description: t("german.description"),
-      file: "/cv/Mona_Souabni_CV_DE.pdf",
+      file: "/cv/Mona_Souabni_DE.pdf",
     },
   ];
 
