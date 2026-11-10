@@ -76,7 +76,7 @@ export default function HeroSection() {
           >
 
             <div
-  className="relative w-90 h-64 md:w-90 md:h-80 mx-auto mb-8 group right-[21px]"
+  className="relative w-90 h-64 md:w-90 md:h-80 mx-auto mb-8 group "
   onMouseEnter={() => setHovered(true)}
   onMouseLeave={() => setHovered(false)}
 >
