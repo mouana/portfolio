@@ -44,7 +44,7 @@ export default function AboutPage() {
                   {/* Image frame */}
                   <div className="absolute inset-3 overflow-hidden rounded-[1.5rem] border border-white/60 shadow-2xl">
                     <Image
-                      src="/mona-1.png"
+                      src="/moana.png"
                       alt="Mona Souabni"
                       fill
                       className="object-cover"
